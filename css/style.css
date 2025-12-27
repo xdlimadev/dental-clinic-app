@@ -1,0 +1,31 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.posicion-flotante {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.navbar-brand span,
+footer {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 576px) {
+    footer img {
+        height: 40px !important;
+    }
+}
